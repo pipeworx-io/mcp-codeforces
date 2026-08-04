@@ -1,21 +1,23 @@
-# mcp-codeforces
+# @pipeworx/codeforces
 
-Codeforces MCP — public read API.
+[Codeforces](https://codeforces.com) public read API MCP — competitive programming users, contests, problems, submissions. Keyless.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 673+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
 
 ## Tools
 
-| Tool | Description |
-|------|-------------|
-| `user` | User profile(s) by handle (up to 10000 semicolon-separated). |
-| `user_rating` | Full rating history for a user. |
-| `user_status` | Recent submissions for a user. |
-| `contest_list` | All contests. Pass gym=true for gym contests. |
-| `contest_standings` | Standings (and problem list) for a contest. Optionally filter by handles. |
-| `problemset` | Problemset + per-problem submission counts. Optional tag filter. |
-| `recent_actions` | Recent global actions feed. |
-| `blog_entry_view` | Full blog entry by id. |
+- `user(handles[])` — profile(s) by handle (up to 10k)
+- `user_rating(handle)` — full rating history for a user
+- `user_status(handle, count?)` — recent submissions for a user
+- `contest_list(gym?)` — all contests (regular or gym)
+- `contest_standings(contest_id, handles?, from?, count?)` — standings + problems for one contest
+- `problemset(tags?, problemset_name?)` — problemset + recent submissions stats
+- `recent_actions(max_count?)` — recent global actions feed
+- `blog_entry_view(blog_id)` — full blog entry by id
+
+## Data source
+
+`https://codeforces.com/api/`
 
 ## Quick Start
 
@@ -31,7 +33,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 673+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -55,7 +57,7 @@ The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
