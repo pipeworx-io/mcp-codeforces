@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/codeforces",
   "title": "Codeforces",
-  "description": "Codeforces competitive programming users, contests, problems",
-  "version": "0.1.0",
+  "description": "Codeforces MCP — public read API.",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/codeforces",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-codeforces",
