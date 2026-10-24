@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-codeforces",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Codeforces MCP — public read API.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-faa32bf257292e908e0e63f1488b01b4ebbe7b848f84306b87c3494f92fc24ce",
-    "sourceCommit": "b0a4b8e2f3f5b3a4c3f9f2c9a73f91b20d32ce11"
+    "sourceHash": "v1-73cfb533a50139795ed245781bd216c8d64ec3b02fbe170fa129838a19bfd5ce",
+    "sourceCommit": "f1ef7a2f6b9cb1b8da1374ec2fcb28c661582b35"
   }
 }
